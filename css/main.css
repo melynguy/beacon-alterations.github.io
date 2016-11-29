@@ -1,0 +1,69 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #FFF, #888);
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+#opening {
+    background-color: #F8F8F8;
+    padding: 15px;
+}
+
+#aboutus {
+    background-color: #EBEBEB;
+    padding: 15px;
+}
+
+#menu {
+    background-color: #F8F8F8;
+    padding: 15px;
+}
+
+
+#footer {
+    background-color: #000;
+    color: #EEEEEE;
+    padding: 15px;
+}
+
+.footer-info {
+    color: #EEEEEE;
+    padding: 15px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    header {
+        background: no-repeat;
+        background-size:100% auto;
+        background-image: url(../img/test-img.jpg);
+        background-size: cover;
+        background-position: center center;
+        min-height: 425px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+
