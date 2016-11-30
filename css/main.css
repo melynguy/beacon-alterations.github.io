@@ -47,6 +47,11 @@ h2 {
     color: #AAAAAA;
 }
 
+.card {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
 
 @media (min-width: 768px) {
 
@@ -61,9 +66,15 @@ h2 {
         background-position: center center;
         min-height: 425px;
     }
+    .resizeimg {
+        height: auto;
+    }
 }
 
 @media (min-width: 1200px) {
-
+    .resizeimg {
+        width: auto;
+        height: 350px;
+    }
 }
 
