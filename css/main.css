@@ -53,6 +53,28 @@ h2 {
   padding: 10px;
 }
 
+.row {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+   /*display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;*/
+}
+
+.col {
+    flex-grow: 1;
+    padding: 5px;
+   /*-webkit-flex-direction: column;
+   flex-direction: column;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;*/
+}
+
 @media (min-width: 768px) {
 
 }
@@ -66,15 +88,14 @@ h2 {
         background-position: center center;
         min-height: 425px;
     }
-    .resizeimg {
-        height: auto;
+    .col {
+        flex-basis: 50%;
     }
 }
 
 @media (min-width: 1200px) {
-    .resizeimg {
-        width: auto;
-        height: 350px;
+    .col {
+        flex-basis: 25%;
     }
 }
 
