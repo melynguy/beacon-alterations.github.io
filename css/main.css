@@ -39,34 +39,27 @@ h2 {
     padding: 15px;
 }
 
-
-#footer {
+footer {
     background-color: #000;
     color: #EEEEEE;
-    padding: 15px;
 }
 
-.footer-flex-row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+.flex-container {
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.footer-flex-col {
-    margin: 5px;
-    width: 100%;
-    display: flex;
-    text-align: center;
+.flex-item {
+  background: salmon;
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+  
+  color: white;
+  text-align: center;
 }
 
-.footer-header-text {
-    text-align: center;
-}
-
-.footer-info a {
-    text-decoration: none;
-    color: #AAAAAA;
-}
 
 @media (min-width: 768px) {
 
@@ -80,10 +73,6 @@ h2 {
         background-size: cover;
         background-position: center center;
         min-height: 425px;
-    }
-
-    .footer-flex-col {
-        flex-basis: 10%;
     }
 }
 
