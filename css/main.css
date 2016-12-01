@@ -7,9 +7,18 @@ body {
 header {
     background-image: linear-gradient(to bottom, #FFF, #888);
     color: #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
+
+/* NAVBAR CSS */
+header img {
+    width: 60px;
+}
+
+
+
+
+
+
 
 h2 {
     margin: 0px;
@@ -25,7 +34,7 @@ h2 {
     padding: 15px;
 }
 
-#menu {
+#services {
     background-color: #F8F8F8;
     padding: 15px;
 }
@@ -58,7 +67,6 @@ h2 {
     text-decoration: none;
     color: #AAAAAA;
 }
-
 
 @media (min-width: 768px) {
 
