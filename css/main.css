@@ -9,6 +9,17 @@ header {
     color: #FFFFFF;
 }
 
+/* NAVBAR CSS */
+header img {
+    width: 60px;
+}
+
+
+
+
+
+
+
 h2 {
     margin: 0px;
 }
@@ -23,7 +34,7 @@ h2 {
     padding: 15px;
 }
 
-#menu {
+#services {
     background-color: #F8F8F8;
     padding: 15px;
 }
@@ -33,16 +44,6 @@ h2 {
     background-color: #000;
     color: #EEEEEE;
     padding: 15px;
-}
-
-.footer-info {
-    color: #EEEEEE;
-    padding: 15px;
-}
-
-.footer-info a {
-    text-decoration: none;
-    color: #AAAAAA;
 }
 
 
