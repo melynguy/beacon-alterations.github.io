@@ -11,8 +11,11 @@
     <!--Lato and Raleway fonts - STILL NEED TO DECIDE WHAT FONT(S)-->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i|Raleway:100,300" rel="stylesheet">
 
-    <!--Font Awesome icon font - DO WE NEED ANY ICONS? TBD...-->
+    <!--Font Awesome icon font-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <!--materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
     <!--our own stylesheet-->
     <link rel="stylesheet" href="css/main.css">
@@ -28,15 +31,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="#">Home</a>
-            </ul>
-        </nav>
+        
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="logo"><img src="img/old-sewing-machine.png"></a>
+                    <ul class="right">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#service-form">Appointment</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
     </header>
 
     <section>
-        <div class="container" id="opening">
+        <div id="opening">
             <h2>
                 Opening Image(s)
             </h2>
@@ -44,7 +56,7 @@
     </section>
 
     <section>
-        <div class="container" id="aboutus">
+        <div id="aboutus">
             <h2>
                 About Us Section
             </h2>
@@ -52,124 +64,65 @@
     </section>
 
     <section>
+        <h2>Services</h2>
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
+
+            <div class="card-image">
+              <img src="img/test-img.jpg">
+              <span class="card-title">Blazer, Suit, Jacket</span>
+            </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
+            <div class="card-image">
+              <img src="img/test-img.jpg">
+              <span class="card-title">Raincoat, Overcoat, Outwear</span>
+            </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
+
+            <div class="card-image">
+              <img src="img/test-img.jpg">
+              <span class="card-title">Shirt, Blouse</span>
+            </div>
+
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
+            <div class="card-image">
+              <img src="img/test-img.jpg">
+              <span class="card-title">Slacks, Pants</span>
+            </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
+                                <div class="card-image">
+              <img src="img/test-img.jpg">
+              <span class="card-title">Skirts, Dress</span>
             </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="img/test-img.jpg" alt="image of stuff">
-                    </div>
-                    <div class="card-content">
-                        <h2>Card Title</h2>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container" id="footer">
+        <div id="footer">
             <p>footer info here</p>
         </div>
     </footer>
+
+    
+    <script src="js/main.js"></script>
+    <!--Jquery & materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    
 </body>
 </html>

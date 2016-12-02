@@ -7,12 +7,16 @@ body {
 header {
     background-image: linear-gradient(to bottom, #FFF, #888);
     color: #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
+}
+
+/* NAVBAR CSS */
+header img {
+    width: 60px;
 }
 
 h2 {
     margin: 0px;
+    text-align: center;
 }
 
 #opening {
@@ -25,7 +29,7 @@ h2 {
     padding: 15px;
 }
 
-#menu {
+#services {
     background-color: #F8F8F8;
     padding: 15px;
 }
@@ -50,7 +54,7 @@ h2 {
 .card {
   text-align: center;
   margin: 10px;
-  padding: 10px;
+  /*height: 250px;*/
 }
 
 .row {
@@ -67,6 +71,10 @@ h2 {
     padding: 5px;
 }
 
+.card-title {
+    color: black;
+}
+
 @media (min-width: 768px) {
 
 }
@@ -79,9 +87,6 @@ h2 {
         background-size: cover;
         background-position: center center;
         min-height: 425px;
-    }
-    .col {
-        flex-basis: 50%;
     }
 }
 
