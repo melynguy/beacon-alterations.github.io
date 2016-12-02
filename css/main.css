@@ -51,7 +51,7 @@ h2 {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
     header {
         background: no-repeat;
         background-size:100% auto;
@@ -59,6 +59,10 @@ h2 {
         background-size: cover;
         background-position: center center;
         min-height: 425px;
+    }
+
+    .dropdown-button {
+        visibility: hidden;
     }
 }
 
