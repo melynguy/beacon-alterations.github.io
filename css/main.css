@@ -54,7 +54,6 @@ h2 {
 .card {
   text-align: center;
   margin: 10px;
-  /*height: 250px;*/
 }
 
 .row {
@@ -71,9 +70,10 @@ h2 {
     padding: 5px;
 }
 
-.card-title {
-    color: black;
-}
+/*.activator {
+    height: 195px;
+    width: 292px;
+}*/
 
 @media (min-width: 768px) {
 
