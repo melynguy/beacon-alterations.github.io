@@ -29,64 +29,57 @@
 </head>
 <body>
     <header>
-        <!--
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#!" class="logo"><img src="img/old-sewing-machine.png"></a>
-                    <ul class="right">
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#service-form">Appointment</a></li>
-                        <li><a href="#footer">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        -->
 
         <nav>
-            <div class="nav-wrapper fixed">
-                <a href="#!" class="brand-logo">Logo</a>
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">Javascript</a></li>
-                        <li><a href="mobile.html">Mobile</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="sass.html">Sass</a></li>
-                        <li><a href="badges.html">Components</a></li>
-                        <li><a href="collapsible.html">Javascript</a></li>
-                        <li><a href="mobile.html">Mobile</a></li>
-                    </ul>
-            </div>
-
+            <div class="nav-wrapper grey fixed">
+                <a href="#!" class="brand-logo"><img src="img/logo.png" width="500px"></a>
+                <a class="dropdown-button btn material-icons grey z-depth-0" href='#' data-activates='dropdown1'><i class="material-icons">menu</i></a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#service-form">Appointment</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">three</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down" id="nav-link">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#service-form">Appointment</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>   
+        </nav>
+        
     </header>
+    
 
-    <section>
-        <div id="opening">
-            <h2>
-                Opening Image(s)
-            </h2>
-        </div>
-    </section>
 
-    <section>
-        <div id="aboutus">
-            <h2>
-                About Us Section
-            </h2>
-        </div>
-    </section>
 
-    <section>
-        <div id="services">
-            <h2>
-                Menu
-            </h2>
-        </div>
-    </section>
+
+    <main> 
+        
+        <section> 
+            <div class="parallax-container">
+                <div class="parallax"><img src="img/test-img.jpg"></div>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="aboutus">
+                <h2>
+                    About Us Section
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div id="services">
+                <h2>
+                    Services
+                </h2>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div id="footer">
