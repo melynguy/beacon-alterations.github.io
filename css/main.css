@@ -5,33 +5,69 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #FFF, #888);
-    color: #FFFFFF;
+
 }
 
 /* NAVBAR CSS */
 nav {
     height: 80px;
     position: fixed;
-    top: 0;
 }
 
 nav img {
-    padding-top: 5px;
     width: 200px;
+    margin-top: 5px;
 }
 
 .dropdown-content {
     font-size: 100px;
 }
 
-#opening {
-    margin-top: 80px;
-}
-
 nav a{
     height: 80px;
+
 }
+
+
+/* PARALLAX CSS */
+
+.cushion {
+    background-color: transparent;
+    background: no-repeat;
+    background-size:100% auto;
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+    min-height: 425px;
+}
+
+.pin {
+    background: no-repeat;
+    background-size:100% auto;
+    background-image: url(../img/pin.png);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 800px;
+}
+
+.parallax-container {
+    
+    background: no-repeat;
+    background-size:100% auto;
+    background-image: url(../img/pin-cushion.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 425px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -70,15 +106,15 @@ h2 {
     header {
         background: no-repeat;
         background-size:100% auto;
-        background-image: url(../img/test-img.jpg);
+        background-image: url();
         background-size: cover;
         background-position: center center;
-        min-height: 425px;
+        min-height: 0px;
     }
 
     nav img {
         padding-left: 15px;
-        padding-top: 5px;
+
     }
 
     .dropdown-button {
