@@ -14,23 +14,32 @@ main {
 
 /* NAVBAR CSS */
 nav {
-    height: 80px;
     position: fixed;
+    min-height: 80px;
 }
 
 nav img {
-    width: 200px;
-    margin-top: 5px;
+    width: 150px;
+    padding-top: 5px;
 }
 
 .dropdown-content {
     font-size: 100px;
 }
 
-nav a{
+nav a {
     height: 80px;
-
 }
+
+nav ul li a{
+  color: black;
+}  
+
+.material-icons {
+    color: black;
+}
+
+
 
 
 /* PARALLAX CSS */
