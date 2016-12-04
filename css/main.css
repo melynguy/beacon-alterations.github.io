@@ -35,23 +35,9 @@ nav a{
 
 /* PARALLAX CSS */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 h2 {
     margin: 0px;
+    text-align: center;
 }
 
 #opening {
@@ -76,6 +62,39 @@ h2 {
     padding: 15px;
 }
 
+.footer-info {
+    color: #EEEEEE;
+    padding: 15px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.card {
+  text-align: center;
+  margin: 10px;
+}
+
+.row {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.col {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+/*.activator {
+    height: 195px;
+    width: 292px;
+}*/
 
 @media (min-width: 768px) {
 
@@ -103,6 +122,8 @@ h2 {
 }
 
 @media (min-width: 1200px) {
-
+    .col {
+        flex-basis: 20%;
+    }
 }
 
