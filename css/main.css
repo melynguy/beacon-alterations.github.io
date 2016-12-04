@@ -100,10 +100,9 @@ h2 {
     padding: 5px;
 }
 
-/*.activator {
-    height: 195px;
-    width: 292px;
-}*/
+.card-reveal {
+    text-align: left;
+}
 
 @media (min-width: 768px) {
 
