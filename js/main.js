@@ -1,5 +1,6 @@
 "use strict";
 
 $( document ).ready(function() {
-    $(".dropdown-button").dropdown();
+    $('.parallax').parallax();
+    $(".button-collapse").sideNav();
 });

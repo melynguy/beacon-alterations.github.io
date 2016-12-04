@@ -14,6 +14,9 @@
     <!--Font Awesome icon font-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
+    <!--Import Google Icon Font for Materialize-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
 
@@ -22,46 +25,176 @@
 
     <!--page icon-->
     <link rel="icon" href="img/old-sewing-machine.png">    
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <link rel="icon" href="img/old-sewing-machine.png">   
+     
 </head>
 <body>
     <header>
-        
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper">
-                    <a href="#!" class="logo"><img src="img/old-sewing-machine.png"></a>
-                    <ul class="right">
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#service-form">Appointment</a></li>
-                        <li><a href="#footer">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+
+        <nav>
+            <div class="nav-wrapper white black-text">
+                <a href="#!" class="brand-logo"><img src="img/beaconlogo.png" width="500px"></a>
+                <a class="dropdown-button btn material-icons white z-depth-0" href='#' data-activates='dropdown1'><i class="material-icons">menu</i></a>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#service-form">Appointment</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">three</a></li>
+                </ul>
+                <ul class="right hide-on-med-and-down" id="nav-link">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#service-form">Appointment</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>   
+        </nav>
         
     </header>
+    
+
+
+
+
+    <main> 
+        
+        <section> 
+            <div class="parallax-container">
+                <div class="parallax"><img src="img/test-img.jpg"></div>
+            </div>
+        </section>
+
+
+        <section>
+            <div id="aboutus">
+                <h2>
+                    About Us Section
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div id="services">
+                <h2>
+                    Services
+                </h2>
+            </div>
+        </section>
+    </main>
 
     <section>
-        <div id="opening">
-            <h2>
-                Opening Image(s)
-            </h2>
-        </div>
-    </section>
+        <div class="container">
+            <div id="order-form">
+                </br>
+                <h2>
+                    Send us a work request
+                </h2>
+                <h5>
+                    or contact us directly
+                </h5>
+                </br>
+                <div class="row">
+                    <form class="col s12" action="https://formspree.io/glsmith3@uw.edu" method="POST">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate" name="name">
+                                <label for="icon_prefix">Name</label>
+                            </div>
+                            <div>
+                                <input type="text" name="_gotcha" style="display:none"/>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate" name="_replyto">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">phone</i>
+                                <input placeholder="(optional)"id="icon_telephone" type="tel" class="validate" name="phone">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                            <div>
+                                <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea placeholder="Tell us how we can help you, and by when" id="icon_prefix2" class="materialize-textarea" name="message"></textarea>
+                                <label for="icon_prefix2">Message</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                        
+            </div>     
+        <h2>Services</h2>
+        <div class="row">
+            <div class="col">
 
-    <section>
-        <div id="aboutus">
-            <h2>
-                About Us Section
-            </h2>
-        </div>
-    </section>
+  <!--<div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="img/groom.jpg">
+      <span class="card-title">Blazer, Suit, Jacket</span>
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4"><i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>-->
 
-    <section>
-        <div id="services">
-            <h2>
-                Menu
-            </h2>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/suit.jpg">
+                        <span class="card-title">Blazer, Suit, Jacket</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/rain-jacket.jpg">
+                        <span class="card-title">Raincoat, Overcoat, Outwear</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/blouse.jpg">
+                        <span class="card-title">Shirt, Blouse</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/jeans.jpg">
+                        <span class="card-title">Slacks, Pants</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="img/wedding-dress.jpg">
+                        <span class="card-title">Skirts, Dress</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -82,10 +215,15 @@
     </footer>
 
     
-    <script src="js/main.js"></script>
-    <!--Jquery & materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
     
+
+    <!--Jquery & materialize.js-->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.js"></script>
+        
+    <script src="js/main.js"></script>
 </body>
 </html>

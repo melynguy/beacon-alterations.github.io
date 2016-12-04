@@ -5,23 +5,48 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #FFF, #888);
-    color: #FFFFFF;
+
+}
+
+main {
+    padding-top: 80px;
 }
 
 /* NAVBAR CSS */
-header img {
-    width: 60px;
+nav {
+    position: fixed;
+    min-height: 80px;
+}
+
+nav img {
+    width: 150px;
+    padding-top: 5px;
+}
+
+.dropdown-content {
+    font-size: 100px;
+}
+
+nav a {
+    height: 80px;
+}
+
+nav ul li a{
+  color: black;
+}  
+
+.material-icons {
+    color: black;
 }
 
 
 
 
-
-
+/* PARALLAX CSS */
 
 h2 {
     margin: 0px;
+    text-align: center;
 }
 
 #opening {
@@ -60,23 +85,68 @@ footer {
   text-align: center;
 }
 
+.footer-info {
+    color: #EEEEEE;
+    padding: 15px;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.card {
+  text-align: center;
+  margin: 10px;
+}
+
+.row {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.col {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+/*.activator {
+    height: 195px;
+    width: 292px;
+}*/
 
 @media (min-width: 768px) {
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 990px) {
     header {
         background: no-repeat;
         background-size:100% auto;
-        background-image: url(../img/test-img.jpg);
+        background-image: url();
         background-size: cover;
         background-position: center center;
-        min-height: 425px;
+        min-height: 0px;
     }
+
+    nav img {
+        padding-left: 15px;
+
+    }
+
+    .dropdown-button {
+        visibility: hidden;
+    }
+
 }
 
 @media (min-width: 1200px) {
-
+    .col {
+        flex-basis: 20%;
+    }
 }
 
