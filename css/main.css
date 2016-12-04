@@ -8,6 +8,10 @@ header {
 
 }
 
+main {
+    padding-top: 80px;
+}
+
 /* NAVBAR CSS */
 nav {
     height: 80px;
@@ -31,34 +35,9 @@ nav a{
 
 /* PARALLAX CSS */
 
-.cushion {
-    background-color: transparent;
-    background: no-repeat;
-    background-size:100% auto;
-    background-image: url();
-    background-size: cover;
-    background-position: center center;
-    min-height: 425px;
-}
 
-.pin {
-    background: no-repeat;
-    background-size:100% auto;
-    background-image: url(../img/pin.png);
-    background-position: center center;
-    background-size: cover;
-    padding-top: 800px;
-}
 
-.parallax-container {
-    
-    background: no-repeat;
-    background-size:100% auto;
-    background-image: url(../img/pin-cushion.png);
-    background-size: cover;
-    background-position: center center;
-    min-height: 425px;
-}
+
 
 
 
@@ -121,9 +100,6 @@ h2 {
         visibility: hidden;
     }
 
-    #opening {
-        margin-top: 0px;
-    }
 }
 
 @media (min-width: 1200px) {
