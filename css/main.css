@@ -4,10 +4,6 @@ body {
     font-size: 18px;
 }
 
-header {
-
-}
-
 main {
     padding-top: 80px;
 }
@@ -39,9 +35,6 @@ nav ul li a{
     color: black;
 }
 
-
-
-
 /* PARALLAX CSS */
 
 h2 {
@@ -64,9 +57,9 @@ h2 {
     padding: 15px;
 }
 
-footer {
-    background-color: #000;
-    color: #EEEEEE;
+#contactus {
+    background-color: #F8F8F8;
+    padding: 15px;
 }
 
 .flex-container {
@@ -85,19 +78,27 @@ footer {
   text-align: center;
 }
 
-.footer-info {
-    color: #EEEEEE;
-    padding: 15px;
+.contact-text {
+    vertical-align: baseline;
+    position: relative;
+    top:-5px;
 }
 
-.footer-info a {
-    text-decoration: none;
-    color: #AAAAAA;
+footer.page-footer {
+    margin-top: 0;
 }
 
 .card {
   text-align: center;
   margin: 10px;
+}
+
+.contact {
+    text-align: left;
+}
+
+.card-title {
+    color: #000;
 }
 
 .row {
