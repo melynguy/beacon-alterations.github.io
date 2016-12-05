@@ -4,10 +4,6 @@ body {
     font-size: 18px;
 }
 
-header {
-
-}
-
 main {
     padding-top: 80px;
 }
@@ -38,9 +34,6 @@ nav ul li a{
 .material-icons {
     color: black;
 }
-
-
-
 
 /* PARALLAX CSS */
 
