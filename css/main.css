@@ -4,6 +4,10 @@ body {
     font-size: 18px;
 }
 
+nav {
+    z-index: 1000;
+}
+
 main {
     padding-top: 80px;
 }
@@ -119,8 +123,10 @@ footer.page-footer {
     text-align: left;
 }
 
-@media (min-width: 768px) {
-
+@media (min-width: 601px) {
+    .material-icons {
+        margin-bottom: 15px;
+    }
 }
 
 @media (min-width: 990px) {
