@@ -64,6 +64,11 @@ h2 {
     padding: 15px;
 }
 
+#contactus {
+    background-color: #F8F8F8;
+    padding: 15px;
+}
+
 footer {
     background-color: #000;
     color: #EEEEEE;
@@ -98,6 +103,14 @@ footer {
 .card {
   text-align: center;
   margin: 10px;
+}
+
+.contact {
+    text-align: left;
+}
+
+.card-title {
+    color: #000;
 }
 
 .row {
