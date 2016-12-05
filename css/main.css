@@ -69,11 +69,6 @@ h2 {
     padding: 15px;
 }
 
-footer {
-    background-color: #000;
-    color: #EEEEEE;
-}
-
 .flex-container {
   display: flex;  
   flex-flow: row wrap;
@@ -90,14 +85,14 @@ footer {
   text-align: center;
 }
 
-.footer-info {
-    color: #EEEEEE;
-    padding: 15px;
+.contact-text {
+    vertical-align: baseline;
+    position: relative;
+    top:-5px;
 }
 
-.footer-info a {
-    text-decoration: none;
-    color: #AAAAAA;
+footer.page-footer {
+    margin-top: 0;
 }
 
 .card {
