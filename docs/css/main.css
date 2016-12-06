@@ -73,6 +73,10 @@ h2 {
     text-align: center;
 }
 
+h5 {
+    text-align: center;
+}
+
 #opening {
     background-color: #F8F8F8;
     padding: 15px;
@@ -145,6 +149,15 @@ footer.page-footer {
 
 .card-reveal {
     text-align: left;
+}
+
+.store {
+    width: 35%; 
+    height: 35%;
+}
+
+.aboutUsInfo {
+    text-align: center;
 }
 
 @media (min-width: 200px) {
