@@ -199,14 +199,14 @@ footer.page-footer {
     .drop-button {
         margin-top: 5px;
     }
-<<<<<<< HEAD
+
     #aboutus {
         background-color: #FF8A00;
-=======
-
+    }
+    
     .col-contact {
         flex-basis: 100%;
->>>>>>> afa8058cac31bab8cb82f9c0f86ba705520ec9ca
+
     }
 }
 
