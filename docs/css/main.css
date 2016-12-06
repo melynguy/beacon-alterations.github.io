@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'woodford bourne', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #424141;
@@ -134,6 +134,7 @@ footer.page-footer {
     margin: 0;
     display: flex;
     -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: stretch;
 }
@@ -145,6 +146,16 @@ footer.page-footer {
 
 .card-reveal {
     text-align: left;
+}
+
+.contact-icon {
+    color: #000;
+}
+
+.footer-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #000
 }
 
 .store {
@@ -188,8 +199,14 @@ footer.page-footer {
     .drop-button {
         margin-top: 5px;
     }
+<<<<<<< HEAD
     #aboutus {
         background-color: #FF8A00;
+=======
+
+    .col-contact {
+        flex-basis: 100%;
+>>>>>>> afa8058cac31bab8cb82f9c0f86ba705520ec9ca
     }
 }
 
@@ -228,6 +245,16 @@ footer.page-footer {
     #aboutus {
         margin-top: 40px;
     }
+
+    .col-contact {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 993px) {
+    .footer-list {
+        text-align: right;
+    }
 }
 
 @media (min-width: 1150px) {
@@ -255,6 +282,10 @@ footer.page-footer {
 
     .col {
         flex-basis: 20%;
+    }
+    
+    .footer-list {
+        text-align: right;
     }
 }
 
