@@ -152,14 +152,11 @@ footer.page-footer {
 @media (min-width: 200px) {
     /* Parallax/About us CSS */
     .pin-media {
-        height: 0px;
+        width: 100% auto;
     }
 
-    .lrg-media-img {
-        height: 300px;
-    }
     .parallax-container {
-        margin: 0px;
+        height: 400px;
     }
 }
 
