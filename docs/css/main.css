@@ -27,16 +27,20 @@ nav ul a:hover {
     height: 80px;
 }
 
-nav ul a {
+nav ul li a {
     padding-top: 5px;
+    color: #424141;
+    height: 80px;
 }
 
 nav ul li a{
-  color: #424141;
+
 }  
 
-.material-icons {
+.drop-button {
     color: #424141;
+    width: 30px;
+    margin-top: 8px;
 }
  
 /* PARALLAX/ABOUT US CSS */
@@ -149,9 +153,35 @@ footer.page-footer {
     text-align: left;
 }
 
+@media (min-width: 200px) {
+    /* Parallax/About us CSS */
+    .pin-media {
+        height: 0px;
+    }
+
+    .lrg-media-img {
+        height: 300px;
+    }
+    .parallax-container {
+        margin: 0px;
+    }
+}
+
 @media (min-width: 601px) {
-    .material-icons {
-        margin-bottom: 15px;
+    .pin-media {
+        height: 500px;
+    }
+
+    .lrg-media-img {
+        height: 0px;
+    }
+
+    .parallax-container {
+        margin-top: 0px;
+    }
+
+    .drop-button {
+        margin-top: 5px;
     }
 }
 
@@ -163,17 +193,15 @@ footer.page-footer {
     }
 
     #aboutus {
-        margin-top: -60px;
+        margin-top: 0px;
     }
 }
 
 
 @media (min-width: 990px) {
-
     /* NAVBAR CSS */
     nav img {
         padding-left: 15px;
-
     }
 
     .dropdown-button {
@@ -181,16 +209,17 @@ footer.page-footer {
     }
 
     /* PARALLAX/ABOUT US CSS */
-    .parallax-container {
-        height: 600px;
+    .pin-media {
         margin-top: 20px;
+    }
+    
+    .lrg-media-img {
+        visibility: hidden;
     }
 
     #aboutus {
-        margin-top: -100px;
+        margin-top: 40px;
     }
-    
-
 }
 
 @media (min-width: 1150px) {
@@ -200,6 +229,7 @@ footer.page-footer {
     }
 
     .lrg-media-img {
+        visibility: visible;
         height: 475px;
         width: auto;
         min-height: 0px;
