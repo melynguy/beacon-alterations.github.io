@@ -37,14 +37,32 @@ nav ul li a{
 .material-icons {
     color: black;
 }
+ 
+/* PARALLAX/ABOUT US CSS */
+.parallax-container {
+    height: 500px;
+    margin-top: -30px;
+}
+.parallax {
+    background: no-repeat;
+    background-size:100% auto;
+    background-image: url(../img/pin-cushion.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 0px;
+}
+
+#aboutus {
+    background-color: #ef6c00;
+    padding: 15px;
+    margin-top: -60px;
+}
+
+.lrg-media-img {
+    height: 0px;
+}
 
 
-
-
-
-
-
-/* PARALLAX CSS */
 
 
 
@@ -59,10 +77,7 @@ h2 {
     padding: 15px;
 }
 
-#aboutus {
-    background-color: #ef6c00;
-    padding: 15px;
-}
+
 
 #services {
     background-color: #F8F8F8;
@@ -137,16 +152,20 @@ footer.page-footer {
     }
 }
 
-@media (min-width: 990px) {
-    header {
-        background: no-repeat;
-        background-size:100% auto;
-        background-image: url();
-        background-size: cover;
-        background-position: center center;
-        min-height: 0px;
+@media (min-width: 800px) {    
+    /* PARALLAX/ABOUT US CSS */
+    .parallax-container {
+        margin-top: -10px;
     }
 
+    #aboutus {
+        margin-top: -60px;
+    }
+}
+
+@media (min-width: 990px) {
+
+    /* NAVBAR CSS */
     nav img {
         padding-left: 15px;
 
@@ -156,9 +175,42 @@ footer.page-footer {
         visibility: hidden;
     }
 
+    /* PARALLAX/ABOUT US CSS */
+    .parallax-container {
+        height: 600px;
+        margin-top: 20px;
+    }
+
+    #aboutus {
+        margin-top: -100px;
+    }
+    
+
 }
 
 @media (min-width: 1200px) {
+    /* Parallax/About us CSS */
+    .pin-media {
+        height: 0px;
+    }
+
+    .lrg-media-img {
+        height: 300px;
+        width: auto;
+        min-height: 0px;
+    }
+
+    .parallax-container {
+        margin: 0px;
+    }
+    
+    #aboutus {
+        background-color: white;
+        margin-top: 0px;
+    }
+
+
+
     .col {
         flex-basis: 20%;
     }
