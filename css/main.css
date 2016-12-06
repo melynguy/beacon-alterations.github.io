@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 18px;
+    color: #424141;
 }
 
 /* NAVBAR CSS */
@@ -31,11 +32,11 @@ nav ul a {
 }
 
 nav ul li a{
-  color: black;
+  color: #424141;
 }  
 
 .material-icons {
-    color: black;
+    color: #424141;
 }
  
 /* PARALLAX/ABOUT US CSS */
@@ -63,6 +64,9 @@ nav ul li a{
     height: 0px;
 }
 
+.space-1 {
+    height: 300px;
+}
 
 
 
