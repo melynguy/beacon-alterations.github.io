@@ -68,8 +68,6 @@ nav ul li a {
     height: 300px;
 }
 
-
-
 h2 {
     margin: 0px;
     text-align: center;
@@ -147,6 +145,15 @@ footer.page-footer {
 
 .card-reveal {
     text-align: left;
+}
+
+.store {
+    width: 35%; 
+    height: 35%;
+}
+
+.aboutUsInfo {
+    text-align: center;
 }
 
 @media (min-width: 200px) {
