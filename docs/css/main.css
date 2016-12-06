@@ -6,33 +6,27 @@ body {
 }
 
 /* NAVBAR CSS */
-
 .spacer {
     width: 100%;
     height: 80px;
 }
-
 nav {
     z-index: 1111;
     position: fixed;
     min-height: 80px;
 }
-
 nav img {
     width: 150px;
     padding-top: 5px;
 }
-
 nav ul a:hover {
     height: 80px;
 }
-
 nav ul li a {
     padding-top: 5px;
     color: #424141;
     height: 80px;
 }
-
 .drop-button {
     color: #424141;
     width: 30px;
@@ -53,17 +47,14 @@ nav ul li a {
     background-position: center center;
     min-height: 0px;
 }
-
 #aboutus {
     background-color: #FF8A00;
     padding: 15px;
     margin-top: -60px;
 }
-
 .lrg-media-img {
     height: 0px;
 }
-
 .space-1 {
     height: 300px;
 }
@@ -72,12 +63,6 @@ h2 {
     margin: 0px;
     text-align: center;
 }
-
-#opening {
-    background-color: #F8F8F8;
-    padding: 15px;
-}
-
 
 
 #services {
@@ -159,8 +144,8 @@ footer.page-footer {
 }
 
 .store {
-    width: 35%; 
-    height: 35%;
+    width: 40%; 
+    height: auto;
 }
 
 .aboutUsInfo {
@@ -203,7 +188,7 @@ footer.page-footer {
     #aboutus {
         background-color: #FF8A00;
     }
-    
+
     .col-contact {
         flex-basis: 100%;
 
