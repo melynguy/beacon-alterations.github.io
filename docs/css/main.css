@@ -65,6 +65,8 @@ h2 {
 }
 
 
+
+
 #services {
     background-color: #F8F8F8;
     padding: 15px;
@@ -111,7 +113,7 @@ footer.page-footer {
 }
 
 .card-title {
-    color: #000;
+    color: #424141;
 }
 
 .row {
@@ -144,7 +146,7 @@ footer.page-footer {
 }
 
 .store {
-    width: 40%; 
+    width: 80%; 
     height: auto;
 }
 
@@ -152,19 +154,21 @@ footer.page-footer {
     text-align: center;
 }
 
+
 @media (min-width: 200px) {
     /* Parallax/About us CSS */
     .pin-media {
         height: 0px;
     }
     .lrg-media-img {
-        height: 400px;
+        visibility: hidden;
     }
     .parallax-container {
         margin: 0px;
     }
     #aboutus {
-        background-color: #FFF;
+        margin-top: 0px;
+        background-color: #C2563A;
     }
 }
 
