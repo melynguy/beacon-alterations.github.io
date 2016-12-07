@@ -1,5 +1,5 @@
 body {
-    font-family: 'woodford bourne', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #424141;
@@ -40,12 +40,11 @@ a.anchor {
 }
 
 .btn {
-    font-family: "woodford bourne";
+
     background-color:#FF8A65;
 }
 
 .btn:hover {
-    font-family: "woodford bourne";
     background-color:#FFAB91;
 }
  
@@ -64,7 +63,7 @@ a.anchor {
     min-height: 0px;
 }
 #aboutus {
-    background-color: #FF8A00;
+    background-color: #FF8A65;
     padding: 15px;
     margin-top: -60px;
 }
@@ -100,7 +99,7 @@ h2 {
 }
 
 .flex-item {
-  background: salmon;
+  background: #FF8A65;
   width: 300px;
   height: 150px;
   margin: 10px;
@@ -184,7 +183,8 @@ footer.page-footer {
     }
     #aboutus {
         margin-top: 0px;
-        background-color: #C2563A;
+        color: #FFFFFF;
+        background-color: #FF8A65;
     }
 }
 
@@ -207,7 +207,7 @@ footer.page-footer {
 
     #aboutus {
         margin-top: -60px;
-        background-color: #FF8A00;
+        background-color: #FF8A65;
     }
 
     .col-contact {
