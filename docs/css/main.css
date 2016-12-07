@@ -39,7 +39,15 @@ a.anchor {
     visibility: hidden;
 }
 
+.btn {
+    font-family: "woodford bourne";
+    background-color:#4fdee3;
+}
 
+.btn:hover {
+    font-family: "woodford bourne";
+    background-color:#ACF0F2;
+}
  
 /* PARALLAX/ABOUT US CSS */
 .parallax-container {
