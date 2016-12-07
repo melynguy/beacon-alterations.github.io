@@ -267,6 +267,7 @@ footer.page-footer {
     /* Parallax/About us CSS */
     .pin-media {
         height: 0px;
+        visibility: hidden;
     }
 
     .lrg-media-img {
@@ -284,7 +285,7 @@ footer.page-footer {
     #aboutus {
         color: #424141;
         background-color: white;
-        margin-top: 0px;
+        margin-top: 30px;
     }
 
     .col {
@@ -298,10 +299,10 @@ footer.page-footer {
 
 @media (min-width: 1500px) {
     #aboutus {
-        margin-top: 110px;
+        margin-top: 175px;
     }
 
     .lrg-media-img {
-        margin-top: -80px;
+        margin-top: -20px;
     }
 }
