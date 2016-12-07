@@ -282,6 +282,7 @@ footer.page-footer {
     }
     
     #aboutus {
+        color: #424141;
         background-color: white;
         margin-top: 0px;
     }
@@ -295,3 +296,12 @@ footer.page-footer {
     }
 }
 
+@media (min-width: 1500px) {
+    #aboutus {
+        margin-top: 110px;
+    }
+
+    .lrg-media-img {
+        margin-top: -80px;
+    }
+}
