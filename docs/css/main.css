@@ -47,6 +47,10 @@ a.anchor {
 .btn:hover {
     background-color:#FFAB91;
 }
+
+#appointment {
+    background-color:#f9efeb;
+}
  
 /* PARALLAX/ABOUT US CSS */
 .parallax-container {
