@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Beacon Alterations</title>
+
+    <!--normalize.css for normalizing styling defaults across different browsers-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+    <!--Lato and Raleway fonts - STILL NEED TO DECIDE WHAT FONT(S)-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i|Raleway:100,300" rel="stylesheet">
+
+    <!--Font Awesome icon font-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <!--Import Google Icon Font for Materialize-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <!--our own stylesheet-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--page icon-->
+    <link rel="icon" href="img/old-sewing-machine.png">   
+     
+</head>
+<body>
+    <header>
+        <!--
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="logo"><img src="img/old-sewing-machine.png"></a>
+                    <ul class="right">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#service-form">Appointment</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        -->
+
+        <nav>
+            <div class="nav-wrapper fixed">
+                <a href="#!" class="brand-logo">Logo</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="sass.html">Sass</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">Javascript</a></li>
+                        <li><a href="mobile.html">Mobile</a></li>
+                    </ul>
+            </div>
+
+    </header>
+
+    <section>
+        <div id="opening">
+            <h2>
+                Opening Image(s)
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div id="aboutus">
+            <h2>
+                About Us Section
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div id="services">
+            <h2>
+                Menu
+            </h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div id="order-form">
+                </br>
+                <h2>
+                    Send us a work request
+                </h2>
+                <h5>
+                    or contact us directly
+                </h5>
+                </br>
+                <div class="row">
+                    <form class="col s12" action="https://formspree.io/glsmith3@uw.edu" method="POST" id="coisa">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="icon_prefix" type="text" class="validate" name="name">
+                                <label for="icon_prefix">Name</label>
+                            </div>
+                            <div>
+                                <input type="text" name="_gotcha" style="display:none"/>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate" name="_replyto">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">phone</i>
+                                <input placeholder="(optional)"id="icon_telephone" type="tel" class="validate" name="phone">
+                                <label for="icon_telephone">Telephone</label>
+                            </div>
+                            <div>
+                                <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea placeholder="Tell us how we can help you, and by when" id="icon_prefix2" class="materialize-textarea" name="message"></textarea>
+                                <label for="icon_prefix2">Message</label>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn waves-effect waves-light right" type="submit" name="action">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                        
+            </div>     
+        </div>
+    </section>
+
+    <footer>
+        <div id="footer">
+            <p>footer info here</p>
+        </div>
+    </footer>
+
+    
+    
+
+    <!--Jquery & materialize.js-->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.js"></script>
+        
+    <script src="js/main.js"></script>
+</body>
+</html>
