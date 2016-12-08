@@ -52,6 +52,10 @@ a.anchor {
 #appointment {
     background-color:#f9efeb;
 }
+
+#submit-button {
+    text-align: center;
+}
  
 /* PARALLAX/ABOUT US CSS */
 .parallax-container {
